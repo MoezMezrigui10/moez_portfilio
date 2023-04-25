@@ -1,0 +1,135 @@
+/* Intro */
+
+.title-h2 {
+  text-align: center;
+  color: var(--primary);
+  padding-bottom: 2rem;
+}
+
+/* Blocs projets */
+
+.img-overlay {
+    position: relative;
+    width: 100%;
+    margin-bottom: 5rem;
+    border: 1px solid #f5f6f7
+}
+
+.img-overlay .image {
+  display: block;
+  width: 100%;
+  height: auto;
+ }
+
+.img-caption {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #3c444b;
+  opacity: 0;
+  transition: .8s ease-out;
+ }
+
+ .img-overlay:hover .img-caption {
+  opacity: 1;
+ }
+
+ .img-overlay .img-caption a {
+  left: 10px;
+  position: relative;
+  width: 80%;
+}
+
+.link {
+  padding-top: 10rem;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  color: var(--primary);
+}
+
+.work {
+  color: rgb(82, 93, 104);
+}
+
+.btn {
+  font-size: 1rem;
+  font-family: 'Varela Round';
+  padding: 15px 20px;
+  border: 0 none;
+  text-align: left;
+  color: #fff!important;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: -webkit-linear-gradient(left, var(--primary), #1ba4a4);
+}
+
+.btn:hover {
+  background-image: -webkit-linear-gradient(left, #1ba4a4, var(--primary));
+}
+
+.fa-align-right {
+  position: absolute;
+  right: 30px;
+  line-height: 1.5;
+}
+
+ @media screen and (max-width: 767px)
+{
+  .img-overlay {
+    position: relative;
+    width: 100%;
+ }
+
+  .img-overlay .image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .link {
+  padding-top: 0rem;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-caption {
+  padding-top: 3rem;
+}
+}
+
+/* tablet screens */
+
+@media screen and (min-width: 768px) and (max-width: 959px)
+{
+  .img-overlay {
+    position: relative;
+    width: 100%;
+ }
+
+  .img-overlay .image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .link {
+  padding-top: 0rem;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-caption {
+  padding-top: 3rem;
+}
+}

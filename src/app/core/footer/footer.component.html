@@ -1,0 +1,48 @@
+<footer class="footer">
+
+  <!-- social -->
+
+  <div class="col-md-12 social">
+    <a class="bg-linkedin" href="https://www.linkedin.com/in/moez-mezrigui" target="_blank" rel="tooltip" title="Follow me on Linkedin">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a class="bg-github" href="https://github.com/MoezMezrigui10" target="_blank" rel="tooltip" title="Follow me on Github">
+        <i class="fab fa-github"></i>
+    </a>
+  </div>
+
+  <!-- nav footer -->
+
+  <div class="footer-nav">
+    <ul>
+      <li>
+        <a class="link" title="Home" routerLink="/home" routerLinkActive="active">Home</a>
+      </li>
+      <li>
+        <a class="link" title="Mentions légales" routerLink="/mentions-legales" routerLinkActive="active">Mentions légales</a>
+      </li>
+      <li>
+        <a class="link" title="Contact" routerLink="/contact" routerLinkActive="active">Contact</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- copyright -->
+
+  <div class="copyright">
+    <p>Copyright
+      &copy;
+      <span [innerText]="yearNow"></span>&nbsp; 
+      Moez Mezrigui  • Full Stack Developer based in Tunisia
+    </p>
+  </div>
+
+  <!-- back to top -->
+
+  <div class="triangle img-center" [ngClass]="{'show-scrollTop': windowScrolled}">
+    <a class="back-to-top" (click)="scrollToTop()" title="Back to top">
+      <i class="fa fa-arrow-up hidden-xs"></i>
+    </a>
+  </div>
+
+</footer>

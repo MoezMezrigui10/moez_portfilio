@@ -1,0 +1,87 @@
+.jumbotron {
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bloc-skills {
+  background-color: #2b3d50b9;
+  padding-top: 3rem;
+  padding-bottom: 0.5rem;
+}
+
+.box-skill {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  max-width: 80%;
+}
+
+.skill {
+  text-align: left;
+  font-size: 0.9rem;
+  margin-bottom: 0rem;
+  color: #ffffff;
+}
+
+.progress {
+  height: 0.5rem;
+  border-radius: 2px;
+}
+
+.progress-bar-dev {
+  width: 0;
+  animation: progress 1.5s ease-in-out forwards;
+  background-color: var(--fifth);
+
+  .percent {
+    opacity: 0;
+    animation: show 0.35s forwards ease-in-out 0.5s;
+  }
+
+}
+
+.progress-bar-tools {
+  width: 0;
+  animation: progress 1.8s ease-in-out forwards;
+  background-color: var(--fourth);
+
+  .percent {
+    opacity: 0;
+    animation: show 0.70s forwards ease-in-out 0.5s;
+  }
+
+}
+
+.progress-bar-other {
+  width: 0;
+  animation: progress 2s ease-in-out forwards;
+  background-color: var(--fifth);
+
+  .percent {
+    opacity: 0;
+    animation: show 0.90s forwards ease-in-out 0.5s;
+  }
+
+}
+
+@keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes show  {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+

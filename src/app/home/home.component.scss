@@ -1,0 +1,85 @@
+/* Intro */
+.intro {
+  color: var(--text-secondary);
+}
+
+.jumbotron {
+  background-color: var(--third-transp);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+hr.my-4 {
+  border-top: 1px solid #ffffff;
+}
+
+.btn {
+  font-size: 1rem;
+}
+
+/* Img developer */
+
+.img-dev {
+  width: 25rem;
+}
+
+.copyright-icon {
+  font-size: 0.6rem;
+  margin-bottom: 2rem;
+}
+
+/* Blocs News */
+
+.news-bloc {
+  text-align: center;
+}
+
+.card-header {
+  color: var(--text-primary);
+}
+
+a {
+  text-decoration: none;
+}
+
+.badge {
+  position: absolute;
+  margin-left: 3px;
+}
+
+/* mobile screens */
+@media screen and (max-width: 767px)
+{
+  main {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .news-bloc {
+    text-align: center;
+    display: inline-block;
+  }
+}
+
+/* tablet screens */
+
+@media screen and (min-width: 768px) and (max-width: 959px)
+{
+  main {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .news-bloc {
+    text-align: center;
+    display: inline-block;
+  }
+}

@@ -1,0 +1,36 @@
+.education {
+  text-align: justify;
+}
+
+button:hover {
+  text-decoration: none;
+}
+
+button:active {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.badge {
+  position: absolute;
+  font-size: 0.6rem;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* rotate icon */
+
+.accordion .card .card-header button:not(.collapsed) .rotate-icon {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.fas {
+  float: right;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 900;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}

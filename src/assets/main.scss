@@ -1,0 +1,91 @@
+/* Custom style */
+
+@font-face {
+  font-family: "Varela Round";
+  src: url("../assets/fonts/VarelaRound-Regular.ttf");
+}
+
+main {
+  text-align: center;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-family: "Varela Round";
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-family: "Varela Round";
+}
+
+.title-h2 {
+  text-align: center;
+  color: var(--fifth);
+  padding-bottom: 2rem;
+  text-shadow:
+  -0.0075em 0.0075em 0 mix(#fff, #1ba4a4, 94%),
+  0.005em 0.005em 0 mix(#fff, #1ba4a4, 60%),
+  0.01em 0.01em 0 mix(#fff, #1ba4a4, 62%),
+  0.015em 0.015em mix(#fff, #1ba4a4, 64%),
+  0.02em 0.02em 0 mix(#fff, #1ba4a4, 66%),
+  0.025em 0.025em 0 mix(#fff, #1ba4a4, 68%),
+  0.03em 0.03em 0 mix(#fff, #1ba4a4, 70%),
+  0.035em 0.035em 0 mix(#fff, #1ba4a4, 72%);
+}
+
+h3 {
+  font-family: "Varela Round";
+  font-size: 1.1rem;
+}
+
+p {
+  font-family: "Varela Round";
+  font-size: 0.9rem;
+}
+
+/* mobile screens */
+@media screen and (max-width: 767px)
+{
+  main {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+/* tablet screens */
+
+@media screen and (min-width: 768px) and (max-width: 959px)
+{
+  main {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+/* tablet landscape & desktop screens */
+@media screen and (min-width: 960px) and (max-width: 1199px)
+{
+  main {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+/* large screens */
+@media screen and (min-width: 1200px)
+{
+  main {
+    max-width: 62rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+}
